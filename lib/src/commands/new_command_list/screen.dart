@@ -16,7 +16,7 @@ class Screen extends NewCommandParent {
   }
 
   @override
-  String get description => 'create screen add add path to navigator';
+  String get description => 'create screen';
 
   @override
   String get name => 'screen';
