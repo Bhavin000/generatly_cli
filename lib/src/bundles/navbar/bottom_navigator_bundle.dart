@@ -1,0 +1,18 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: prefer_single_quotes, public_member_api_docs, lines_longer_than_80_chars
+
+import 'package:mason/mason.dart';
+
+final bottomNavigatorBundle = MasonBundle.fromJson(<String, dynamic>{
+  "files": [
+    {
+      "path": "bottom_navigator.dart",
+      "data":
+          "aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CgpjbGFzcyBCb3R0b21OYXZpZ2F0b3IgZXh0ZW5kcyBTdGF0ZWZ1bFdpZGdldCB7CiAgY29uc3QgQm90dG9tTmF2aWdhdG9yKHtLZXk/IGtleX0pIDogc3VwZXIoa2V5OiBrZXkpOwoKICBMaXN0PEFwcEJhcj4gZ2V0U2NyZWVuQXBwQmFyKCkgPT4gWwogICAgICBdOwoKICBMaXN0PFdpZGdldD4gZ2V0U2NyZWVuQm9keSgpID0+IFsKICAgICAgXTsKCiAgTGlzdDxCb3R0b21OYXZpZ2F0aW9uQmFySXRlbT4gZ2V0TmF2aWdhdG9ySXRlbSgpID0+IFsKICAgICAgXTsKCiAgQG92ZXJyaWRlCiAgU3RhdGU8Qm90dG9tTmF2aWdhdG9yPiBjcmVhdGVTdGF0ZSgpID0+IF9Cb3R0b21OYXZpZ2F0b3JTdGF0ZSgpOwp9CgpjbGFzcyBfQm90dG9tTmF2aWdhdG9yU3RhdGUgZXh0ZW5kcyBTdGF0ZTxCb3R0b21OYXZpZ2F0b3I+IHsKICBsYXRlIGludCBfaWR4OwoKICBAb3ZlcnJpZGUKICB2b2lkIGluaXRTdGF0ZSgpIHsKICAgIF9pZHggPSAwOwogICAgc3VwZXIuaW5pdFN0YXRlKCk7CiAgfQoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIHJldHVybiBTY2FmZm9sZCgKICAgICAgYXBwQmFyOiB3aWRnZXQuZ2V0U2NyZWVuQXBwQmFyKClbX2lkeF0sCiAgICAgIGJvZHk6IHdpZGdldC5nZXRTY3JlZW5Cb2R5KClbX2lkeF0sCiAgICAgIGJvdHRvbU5hdmlnYXRpb25CYXI6IEJvdHRvbU5hdmlnYXRpb25CYXIoCiAgICAgICAgaXRlbXM6IHdpZGdldC5nZXROYXZpZ2F0b3JJdGVtKCksCiAgICAgICAgY3VycmVudEluZGV4OiBfaWR4LAogICAgICAgIG9uVGFwOiAodmFsdWUpID0+IHNldFN0YXRlKCgpID0+IF9pZHggPSB2YWx1ZSksCiAgICAgICksCiAgICApOwogIH0KfQo=",
+      "type": "text"
+    }
+  ],
+  "name": "bottom_navigator",
+  "description": "bottom navigator.",
+  "vars": []
+});

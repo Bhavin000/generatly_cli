@@ -1,0 +1,25 @@
+name: generatly_cli
+version: 0.0.1
+description: >-
+  runtime bloc template generator.
+
+publish_to: none
+executables:
+  generatly: generatly_cli
+
+environment:
+  sdk: '>=2.14.2 <3.0.0'
+
+dependencies:
+  args: ^2.3.0
+  io: ^1.0.3
+  mason: ^0.0.1-dev.51
+  path: ^1.8.0
+  pub_updater: ^0.1.1
+  recase: ^4.0.0
+  universal_io: ^2.0.4
+  watcher: ^1.0.1
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
