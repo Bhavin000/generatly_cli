@@ -35,3 +35,10 @@ lib
   |  |-app.dart
   |-main.dart
 </pre>
+<b>
+<h2>How to use?<h2>
+<h3>Install</h3>
+</b>
+<code><pre>
+  dart pub global activate -s git https://github.com/Bhavin000/generatly_cli
+</pre></code>
