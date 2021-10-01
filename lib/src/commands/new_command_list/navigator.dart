@@ -17,8 +17,8 @@ class Navigator extends NewCommandParent {
 
   Navigator(this.logr, this.appName) : super(logger: logr) {
     argParser
-      ..addFlag('top', help: 'top navigator')
-      ..addFlag('bottom', help: 'bottom navigator');
+      ..addFlag('top', help: 'top navigator', negatable: false)
+      ..addFlag('bottom', help: 'bottom navigator', negatable: false);
   }
 
   @override

@@ -8,7 +8,7 @@ import 'package:mason/mason.dart';
 class GeneratlyCommandRunner extends CommandRunner<int> {
   final Logger logger;
   GeneratlyCommandRunner({required this.logger})
-      : super('generatly', 'Realtime Code Generator') {
+      : super('generatly', 'runtime bloc template generator.') {
     argParser.addFlag(
       'version',
       negatable: false,

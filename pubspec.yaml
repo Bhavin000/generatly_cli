@@ -2,8 +2,10 @@ name: generatly_cli
 version: 0.0.1
 description: >-
   runtime bloc template generator.
-
+  
 publish_to: none
+repository:
+  https://github.com/Bhavin000/generatly_cli
 executables:
   generatly: generatly_cli
 
