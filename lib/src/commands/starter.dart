@@ -26,19 +26,8 @@ class StarterCommand extends Command<int> {
     await generateStarterTemplate(_appName);
     logger.progress('creating template').call();
     logger.success('$_appName created successfully!!!');
+    await openVsCode(_appName);
     return ExitCode.success.code;
-  }
-
-  Future<void> runPubGet(String _appName) async {
-    try {
-      await Process.run(
-        'flutter',
-        ['pub', 'get', './$_appName/'],
-        runInShell: true,
-      );
-    } catch (err) {
-      logger.err(err.toString());
-    }
   }
 
   Future<void> runFlutterCreate(String _appName) async {
@@ -66,6 +55,23 @@ class StarterCommand extends Command<int> {
         './$_appName',
         starterBundle,
         starterVars,
+      );
+    } catch (err) {
+      logger.err(err.toString());
+    }
+  }
+
+  Future<void> openVsCode(String _appName) async {
+    try {
+      await Process.run(
+        'code',
+        [_appName],
+        runInShell: true,
+      );
+      await Process.run(
+        'exit',
+        [],
+        runInShell: true,
       );
     } catch (err) {
       logger.err(err.toString());
