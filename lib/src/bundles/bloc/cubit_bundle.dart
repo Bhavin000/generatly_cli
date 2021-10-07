@@ -9,7 +9,7 @@ final cubitBundle = MasonBundle.fromJson(<String, dynamic>{
       "path":
           "{{#snakeCase}}{{name}}{{/snakeCase}}_cubit/{{#snakeCase}}{{name}}{{/snakeCase}}_state.dart",
       "data":
-          "cGFydCBvZiAne3sjc25ha2VDYXNlfX17e25hbWV9fXt7L3NuYWtlQ2FzZX19X2N1Yml0LmRhcnQnOwoKQGltbXV0YWJsZQphYnN0cmFjdCBjbGFzcyB7eyNwYXNjYWxDYXNlfX17e25hbWV9fXt7L3Bhc2NhbENhc2V9fVN0YXRlIGV4dGVuZHMgRXF1YXRhYmxlIHsKICBAb3ZlcnJpZGUKICBMaXN0PE9iamVjdD8+IGdldCBwcm9wcyA9PiB0aHJvdyBVbmltcGxlbWVudGVkRXJyb3IoKTsKfQoKY2xhc3Mge3sjcGFzY2FsQ2FzZX19e3tuYW1lfX17ey9wYXNjYWxDYXNlfX1Jbml0aWFsIGV4dGVuZHMge3sjcGFzY2FsQ2FzZX19e3tuYW1lfX17ey9wYXNjYWxDYXNlfX1TdGF0ZSB7fQo=",
+          "cGFydCBvZiAne3sjc25ha2VDYXNlfX17e25hbWV9fXt7L3NuYWtlQ2FzZX19X2N1Yml0LmRhcnQnOwoKQGltbXV0YWJsZQphYnN0cmFjdCBjbGFzcyB7eyNwYXNjYWxDYXNlfX17e25hbWV9fXt7L3Bhc2NhbENhc2V9fVN0YXRlIGV4dGVuZHMgRXF1YXRhYmxlIHsKICBAb3ZlcnJpZGUKICBMaXN0PE9iamVjdD8+IGdldCBwcm9wcyA9PiBbXTsKfQoKY2xhc3Mge3sjcGFzY2FsQ2FzZX19e3tuYW1lfX17ey9wYXNjYWxDYXNlfX1Jbml0aWFsIGV4dGVuZHMge3sjcGFzY2FsQ2FzZX19e3tuYW1lfX17ey9wYXNjYWxDYXNlfX1TdGF0ZSB7fQo=",
       "type": "text"
     },
     {

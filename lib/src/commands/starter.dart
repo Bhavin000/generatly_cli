@@ -68,11 +68,6 @@ class StarterCommand extends Command<int> {
         [_appName],
         runInShell: true,
       );
-      await Process.run(
-        'exit',
-        [],
-        runInShell: true,
-      );
     } catch (err) {
       logger.err(err.toString());
     }
